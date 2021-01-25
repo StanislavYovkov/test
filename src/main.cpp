@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 #include <NewPing.h>
- 
+//! KOMENTAR!!!!!!!!!!!!!!!!!!!! 
 #define TRIG   A0
 #define ECHO  A1
 #define MAX_DIST 200
