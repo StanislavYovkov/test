@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 #include <NewPing.h>
-//! KOMENTAR!!!!!!!!!!!!!!!!!!!! 
+
 #define TRIG   A0
 #define ECHO  A1
 #define MAX_DIST 200
@@ -29,7 +29,7 @@ unsigned int distance_R ;
 NewPing sonar_R(TRIG_R, ECHO_R, MAX_DIST_R);
 NewPing sonar_L(TRIG_L, ECHO_L, MAX_DIST_L);
 NewPing sonar(TRIG, ECHO, MAX_DIST);
-
+// nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 void Forward();
 void Backward();
 void Left();
